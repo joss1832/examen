@@ -1,0 +1,52 @@
+.contenedor_cinta_principal{
+    background-color: #222222;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.pizza_titulo{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#titulo{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.opciones_principales{
+    display: flex;
+    padding-right: 40px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.opciones_cinta li{
+    display: inline-block ;
+    
+}
+
+
+
+.contedor_central{
+    display: flex;  
+    width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.contenedor_abajo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222 ;
+    color: aliceblue;
+}
+
