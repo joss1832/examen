@@ -1,47 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-mx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examen sorpresa</title>
+    <title>examen</title>
     <link rel="stylesheet" href="./assets/css/josueStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="contenedor_cinta_principal">
-        <div class="pizza_titulo">
+    <!-- contenedor general de la cinta principal -->
+    <header >
+        <div class="pizza_logo">
             <img src="./assets/img/Pizza_principal.png" alt="imagen de una pizza">
-            <p id="titulo">Pizza&Front</p>
+            <p id="pizza">Pizza</p>
+            <p id="y">&</p>
+            <p id="front">Front</p>
         </div>
-
-        <div class="opciones_principales">
-            <ul class="opciones_cinta">
+        <!-- aqui termina el primer contenedor de la imagen de la pizza y la frase -->
+        <!-- aqui comienza el segundo contenedor de la parte de arriba del esquema -->
+        <div class="barra_opciones">
+            <ul>
                 <li>Home</li>
                 <li>Ranking</li>
                 <li>Promoción</li>
                 <li>Contacto</li>
             </ul>
         </div>
-    </div>
+        <!-- aqui termina el segundo contenedor dentro del header-->
+    </header>
+    <!-- aqui termina el contenedor header-->
 
-    <div class="contenedor_central">
-        <img src="./assets/img/delivery.jpg" alt="imagen de un delivery">
-        <div class="titulo_delivery">
-            Envio gratis comprando 2 pizzas
+    <!-- aqui comienza el contenedor central -->
+
+    <section>
+        <!-- aqui comienza el contenedor izquierdo -->
+        <div class="contenedor_izquierdo">
+            <img src="./assets/img/delivery.jpg" alt="imagen de un repartidor">
+            <div class="frase_delivery">
+                <p id="envio">Envío gratis</p>
+                <p id="comprando"> comprando </p>
+                <p id="pizzas"> 2 pizzas</p>
+            </div>
+        </div>
+        <!-- aqui termina el contenedor izquierdo -->
+
+        <!-- aqui comienza el contenedor derecho -->
+         <div class="contenedor_derecho">
+            <div class="podio">
+                <p>Podio de pizzas</p>
+            </div>
+
+            <div class="arbol_lista">
+                <ul>
+                    Pizzas top 5
+                    <li>Mozzarella</li>
+                    <li>Hawaiana</li>
+                    <li>Mozzarella J&Morron</li>
+                    <li>Fugazzeta</li>
+                    <li>Calabresa</li>
+                </ul>
+                <img src="./assets/img/arbol.png" alt="imagen del arbol de navidad">
+            </div>
+
+         </div>
+         <!-- aqui termina el contenedor derecho -->
+    </section>
+    <!-- aqui termina el contenedor central -->
+    <!-- aqui comienza el contenedor footer-->
+    <footer>
+        <div class="barra_opciones_footer">
+            <ul>
+                <li>Home</li>
+                <li>Contacto</li>
+                <li>Ranking</li>
+                <li>Promoción</li>
+            </ul>
+        </div>
+        <div class="logo_footer">
+            <img src="./assets/img/Pizza_principal.png" alt="imagen de la pizza">
+            <p id="pizza">Pizza</p>
+            <p id="y">&</p>
+            <p id="front">Front</p>
         </div>
 
-    </div>
 
-    <footer class="contenedor_abajo">
-        <ul class="">
-            <li>Home</li>
-            <li>Ranking</li>
-            <li>Promoción</li>
-            <li>Contacto</li>
-        </ul>
-        <div>
-            <img src="./assets/img/Pizza_principal.png" alt="imagen de una pizza">
-            <p>Pizza&Front</p>
-        </div>    
     </footer>
     
 </body>

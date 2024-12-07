@@ -1,52 +1,156 @@
-.contenedor_cinta_principal{
+header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
     background-color: #222222;
-    display: flex;
-    width: 100%;
-    padding-bottom: 10px;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 53px;
 }
 
-.pizza_titulo{
-    display: flex;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-#titulo{
-    color: aliceblue;
+/*contenedor de la imagen de la pizza y la frase del header*/
+.pizza_logo{
     display: flex;
     align-items: center;
-    padding-left: 20px;
-}
-
-.opciones_principales{
-    display: flex;
-    padding-right: 40px;
-    color: aliceblue;
-    align-items: center;
-}
-
-.opciones_cinta li{
-    display: inline-block ;
+    gap: 5px;
     
 }
 
-
-
-.contedor_central{
-    display: flex;  
-    width: 100%;
+#pizza{
+    color: #39B24A;
+    font-size: 34px;
 }
 
-body{
-    margin: 0;
+#y{
+    color: #F3F3F3;
+    font-size: 34px;
 }
 
-.contenedor_abajo{
+#front{
+    color: #FC200C;
+    font-size: 34px;
+}
+/*-------------------------------------------------------------*/
+
+/*aqui comienza las especificaciones del segundo contenedor del header*/
+.barra_opciones li{
+    display: inline-block;
+    padding-left: 7px;
+    color: #F3F3F3;
+    font-size: 22px;
+}
+/*----------------------------------------------------------------------- */
+
+
+/*aqui comienzan las especificaciones del contenedor central*/
+
+section{
     display: flex;
+    margin-bottom: 40px;
     justify-content: space-between;
-    background-color: #222222 ;
-    color: aliceblue;
+
 }
+/*aqui comienza las especificaciones del contenedor izquierdo dentro de section*/
+.contenedor_izquierdo{
+    display: flex;
+    width: 50%;
+}
+
+.contenedor_izquierdo img{
+    width: 89%;
+}
+
+.frase_delivery{
+    display: flex;
+    position: absolute;
+    padding-left: 10px;
+    font-size: 34px ;
+    justify-content: center;
+}
+
+#envio{
+    color: #FC200C;
+    padding-right: 4px;
+}
+
+#comprando{
+    color: #F3F3F3;
+    padding-right: 5px;
+}
+
+#pizzas{
+    color: #FC200C;
+}
+/*------------------------------------------------------*/
+
+/*aqui comienza el contenedor derecho dentro de section*/
+
+
+
+.contenedor_derecho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.podio{
+    display: flex;
+    padding-top: 2px;
+    color: #FC200C;
+    font-size: 34px;
+}
+
+.arbol_lista{
+    display: flex;
+    color: #222222;
+    font-size: 20px;
+    
+}
+
+.arbol_lista li{
+    padding-right: 50px;
+    padding-top: 8px;
+}
+
+.arbol_lista img{
+    height: 50%;
+    margin-top: 50px;
+}
+/*-------------------------------------------------*/
+
+/*aqui comienzan las especificaciones del footer*/
+footer{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+.barra_opciones_footer li{
+    display: flex;
+    margin-right: 1px;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+.logo_footer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 40px;
+
+}
+/*-----------------------------------*/
+
+/*extras*/
+body{
+    margin: 0%;
+    font-family: "roboto";
+}
+
+
+
+
+
+
 
