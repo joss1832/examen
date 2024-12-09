@@ -56,9 +56,7 @@ section{
     width: 50%;
 }
 
-.contenedor_izquierdo img{
-    width: 89%;
-}
+
 
 .frase_delivery{
     display: flex;
@@ -93,11 +91,12 @@ section{
     align-items: center;
     padding-right: 50px;
     width: 50%;
+    justify-content: center;
 }
 
 .podio{
     display: flex;
-    padding-top: 2px;
+    margin-top: 10px;
     color: #FC200C;
     font-size: 34px;
 }
@@ -147,6 +146,11 @@ footer{
 body{
     margin: 0%;
     font-family: "roboto";
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
 
 
