@@ -47,6 +47,7 @@ section{
     display: flex;
     margin-bottom: 40px;
     justify-content: space-between;
+    width: 100%;
 
 }
 /*aqui comienza las especificaciones del contenedor izquierdo dentro de section*/
